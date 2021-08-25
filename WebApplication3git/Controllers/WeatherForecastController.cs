@@ -10,7 +10,9 @@ namespace WebApplication3git.Controllers
     [ApiController]
     [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
-    {
+    {/// <summary>
+    /// nari
+    /// </summary>
         private static readonly string[] Summaries = new[]
         {
             "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
